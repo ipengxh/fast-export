@@ -1,0 +1,23 @@
+{
+    "name": "ipengxh/fast-export",
+    "description": "A fast data export library for laravel eloquent(mysql driver)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ipengxh",
+            "email": "ipengxh@ipengxh.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": ">=5.0",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FastExport\\": "src"
+        }
+    }
+}
