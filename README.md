@@ -20,7 +20,7 @@ public function export()
         'name' => "Name of user",
         'email' => "E-mail address",
         'created_at' => "Registered at"
-    ], 'users');
+    ]);
     
     // export as csv file
     FastExport::csv($users, [
